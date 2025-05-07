@@ -60,7 +60,7 @@ def transcribe_audio(audio_file):
 
 # Step 2: Use OpenAI to classify accent
 def classify_accent(text):
-    prompt = f"Based on the following text, classify the speaker's accent: {text}. The options are British, American, Australian, Canadian, Irish, or other accents. Please provide also the accuracy of the classification in the form of accuracy=0.XX. You should always use equal sign(=) for the accuracy."
+    prompt = f"Based on the following text, classify the speaker's accent: {text}. The options are British, American, Australian, Canadian, Irish, or other accents. Please provide also the accuracy of the classification in the form of accuracy=XXX%. You should always use equal sign(=) for the accuracy and provde the number in percentage format."
     
     response = openai.chat.completions.create(
         model="gpt-4o-mini",
