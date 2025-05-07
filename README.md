@@ -21,15 +21,15 @@ This is a web application built with Flask that allows users to upload `.wav` or
    ```bash
    git clone https://github.com/yourusername/accent_detector.git
    ```
-   
+
 **2. Go to folder:**
 
    Navigate to the project folder
-   
+
     ```bash
     cd accent_detector
     ```
-    
+
 **3. Create virtual environment:**
 
     Use this commmand to create a virtual enviornment
