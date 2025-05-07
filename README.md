@@ -28,19 +28,24 @@ This is a web application built with Flask that allows users to upload `.wav` or
 
 3. Create virtual environment:
 
+  ```bash
   python -m venv <virtualenv_name>
 
 4. Activate virtual env:
 
- - windows: <virtualenv_name>\Scripts\activate
- - macOS/linux: source <virtualenv_name>/bin/activate
+ - windows:
+  ```bash
+  <virtualenv_name>\Scripts\activate
+  ```bash
+ - macOS/linux:
+source <virtualenv_name>/bin/activate
 
-3. Install requirements:
-
+5. Install requirements:
+  ```bash
    cd src
    pip install -r requirements.txt
 
-4. Run app:
-
+6. Run app:
+  ```bash
    python app.py
    
