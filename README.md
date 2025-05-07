@@ -41,16 +41,19 @@ On windows use the following command
   ```bash
   <virtualenv_name>\Scripts\activate
   ```
+
 On macOS/Linux use the following command
   ```bash
 source <virtualenv_name>/bin/activate
   ```
+
 If working on Windows but you use MINGW64 terminal use:
   ```bash
 source <virtual_name>/Scripts/activate
-```
+  ```
 
 5. Install requirements:
+   
 First navigate to the src folder
   ```bash
    cd src
@@ -61,14 +64,17 @@ Then install the required dependencies by running
   ```
 
 6. Openai API Key
+   
  In the .env file change the openai_api_key with your private key
   ```bash
   OPENAI_API_KEY='private_key'
   ```
 
 7. Run app:
+8. 
   ```bash
    python app.py
   ```
+
 The application will run at http://127.0.0.1:5000/ by default.
    
