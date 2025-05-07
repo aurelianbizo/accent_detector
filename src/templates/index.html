@@ -37,7 +37,7 @@
         </form>
     </div> -->
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Upload a .WAV File or .MP4 Video, or Enter a YouTube URL</h1>
+        <h2 class="text-center mb-4">Enter a YouTube URL or Upload a file (either .MP4 or .WAV)</h1>
         
         <!-- File Upload Form -->
         <form action="/process" method="POST" enctype="multipart/form-data">
@@ -45,15 +45,16 @@
                 <label for="file">Choose a WAV file:</label>
                 <input type="file" id="file" name="file" class="form-control" accept=".wav">
             </div> -->
-            <div class="form-group">
-                <label for="file">Choose a WAV or MP4 file:</label>
-                <input type="file" id="file" name="file" class="form-control" accept=".wav, .mp4">
-            </div>
             <!-- YouTube URL Input -->
             <div class="form-group">
-                <label for="url">Or enter a YouTube URL:</label>
+                <label for="url">Enter a YouTube URL:</label>
                 <input type="text" id="url" name="url" class="form-control" placeholder="https://www.youtube.com/watch?v=VIDEO_ID">
             </div>
+            <div class="form-group">
+                <label for="file" >or Choose a MP4 or WAVfile:</label>
+                <input type="file" id="file" name="file" class="form-control" accept=".wav, .mp4">
+            </div>
+
 
             <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </form>
