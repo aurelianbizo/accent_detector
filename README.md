@@ -24,13 +24,16 @@ This is a web application built with Flask that allows users to upload `.wav` or
    
 **2. Go to folder:**
 
-   Navigate to the rpoject folder
+   Navigate to the project folder
+   
     ```bash
    cd accent_detector
     ```
+    
 **3. Create virtual environment:**
 
     Use this commmand to create a virtual enviornment
+    
     ```bash
     python -m venv <virtualenv_name>
     ```
@@ -38,16 +41,19 @@ This is a web application built with Flask that allows users to upload `.wav` or
 **4. Activate virtual env:**
 
     On windows use the following command
+    
     ```bash
     <virtualenv_name>\Scripts\activate
     ```
 
     On macOS/Linux use the following command
+    
     ```bash
     source <virtualenv_name>/bin/activate
     ```
 
     If working on Windows but you use MINGW64 terminal use:
+    
     ```bash
     source <virtual_name>/Scripts/activate
     ```
@@ -55,10 +61,12 @@ This is a web application built with Flask that allows users to upload `.wav` or
 **5. Install requirements:**
    
     First navigate to the src folder
+    
     ```bash
      cd src
     ```
     Then install the required dependencies by running
+    
     ```bash
      pip install -r requirements.txt
     ```
@@ -66,15 +74,16 @@ This is a web application built with Flask that allows users to upload `.wav` or
 **6. Openai API Key**
    
      In the .env file change the openai_api_key with your private key
-    ```bash
-    OPENAI_API_KEY='private_key'
-    ```
+     
+      ```bash
+      OPENAI_API_KEY='private_key'
+      ```
 
 **7. Run app:**
    
-    ```bash
-     python app.py
-  ```
+      ```bash
+       python app.py
+      ```
 
 The application will run at http://127.0.0.1:5000/ by default.
    
