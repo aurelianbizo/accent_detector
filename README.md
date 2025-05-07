@@ -27,7 +27,7 @@ This is a web application built with Flask that allows users to upload `.wav` or
    Navigate to the project folder
    
     ```bash
-   cd accent_detector
+    cd accent_detector
     ```
     
 **3. Create virtual environment:**
