@@ -20,24 +20,27 @@ This is a web application built with Flask that allows users to upload `.wav` or
 
    ```bash
    git clone https://github.com/yourusername/accent_detector.git
-
+   ```
+   
 2. Go to folder:
-3. 
-Navigate to the rpoject folder
+
+ Navigate to the rpoject folder
   ```bash
    cd accent_detector
-
+  ```
 3. Create virtual environment:
 
 Use this commmand to create a virtual enviornment
   ```bash
   python -m venv <virtualenv_name>
+  ```
 
 4. Activate virtual env:
 
 On windows use the following command
   ```bash
   <virtualenv_name>\Scripts\activate
+  ```
 On macOS/Linux use the following command
   ```bash
 source <virtualenv_name>/bin/activate
